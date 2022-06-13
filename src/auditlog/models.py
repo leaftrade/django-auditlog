@@ -10,8 +10,8 @@ from django.core.exceptions import FieldDoesNotExist
 from django.db import models
 from django.db.models import QuerySet, Q
 from django.utils import formats
-from django.utils.encoding import python_2_unicode_compatible, smart_text
-from six import iteritems, integer_types
+from django.utils.encoding import smart_text
+from six import iteritems, integer_types, python_2_unicode_compatible
 from django.utils.translation import ugettext_lazy as _
 
 from jsonfield import JSONField
